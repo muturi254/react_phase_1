@@ -14,7 +14,7 @@ const DUMMY_EXPENSE = [
   {
     id: 'e2',
     title: "Sugar",
-    amount: 94.15,
+    amount:20,
     date: new Date(2021, 6, 14)
   },
   {
@@ -26,8 +26,20 @@ const DUMMY_EXPENSE = [
   {
     id: 'e4',
     title: "Car insuarance",
-    amount: 94.15,
+    amount: 70.20,
     date: new Date(2021, 7, 14)
+  },
+  {
+    id: 'e5',
+    title: "Chocolate",
+    amount: 94.15,
+    date: new Date(2020, 8, 14)
+  },
+  {
+    id: 'e6',
+    title: "Car insuarance",
+    amount: 70.20,
+    date: new Date(2019, 7, 14)
   },
 ];
 function App() {
